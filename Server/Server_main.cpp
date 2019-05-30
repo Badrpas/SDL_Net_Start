@@ -30,8 +30,8 @@ int workWithClient( void * socket_ );
 int updateLoop( void * data_ ) {
 	float dt = 0;
 	for(;;){
-        update(dt);
-        SDL_Delay(10);
+		update(dt);
+		SDL_Delay(10);
     }
 	return 0;
 }
