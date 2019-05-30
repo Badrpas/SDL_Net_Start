@@ -5,6 +5,7 @@ dist: xenial
 addons:
   apt:
     packages:
+      - g++-8.3
       - cmake
       - libsdl-image1.2-dev
       - libsdl-dev
