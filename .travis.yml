@@ -1,4 +1,7 @@
 language: cpp
+compiler:
+  - gcc
+  - clang
 
 matrix:
   include:
@@ -9,22 +12,14 @@ matrix:
           sources:
             - ubuntu-toolchain-r-test
           packages:
-            - g++-7
             - cmake
             - libsdl-image1.2-dev
             - libsdl-dev
             - libsdl-net1.2
             - libsdl-net1.2-dev
-      env:
-        - MATRIX_EVAL="CC=gcc-7 && CXX=g++-7"
 
     - os: osx
-      osx_image: xcode8
-      env:
-        - MATRIX_EVAL="brew install gcc && CC=gcc-7 && CXX=g++-7"
-
-before_install:
-  - eval "${MATRIX_EVAL}"
+      osx_image: xcode10
 
 script:
   - mkdir build && cd build
