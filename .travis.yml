@@ -1,0 +1,14 @@
+dist: xenial
+addons:
+  apt:
+    packages:
+      - cmake
+      - libsdl-image1.2-dev
+      - libsdl-dev
+      - libsdl-net1.2
+      - libsdl-net1.2-dev
+
+script:
+  - mkdir build && cd build
+  - cmake ..
+  - make
