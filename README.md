@@ -25,7 +25,7 @@ Do not expect to see a well written code here.
 #### To build with CMake
 
 ```
-mkdir build & cd build
+mkdir build && cd build
 cmake ..
 make
 ```
