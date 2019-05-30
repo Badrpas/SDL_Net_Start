@@ -32,7 +32,7 @@ int updateLoop( void * data_ ) {
 	for(;;){
 		update(dt);
 		SDL_Delay(10);
-    }
+	}
 	return 0;
 }
 
