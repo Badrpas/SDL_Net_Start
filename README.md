@@ -23,21 +23,21 @@ But you better not press other buttons because some of them are crashing client 
 #### Warning for explorers
 Do not expect to see a well written code here.
 
-### Requirements
+## Requirements
 
-#### Linux
-##### Ubuntu
+### Linux
+#### Ubuntu
     apt-get install build-essential libsdl-image1.2-dev libsdl-dev libsdl-net1.2 libsdl-net1.2-dev
-##### Arch
+#### Arch
     put your commands here
     
-#### Mac OS
+### Mac OS
     brew install cmake gcc sdl sdl_net sdl_image
 
-#### Windows
+### Windows
     put your commands here
 
-### Build
+## Build
 
 ```
 mkdir build && cd build
