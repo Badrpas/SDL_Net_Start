@@ -28,14 +28,9 @@ Do not expect to see a well written code here.
 ### Linux
 #### Ubuntu
     apt-get install build-essential libsdl-image1.2-dev libsdl-dev libsdl-net1.2 libsdl-net1.2-dev
-#### Arch
-    put your commands here
     
 ### Mac OS
     brew install cmake gcc sdl sdl_net sdl_image
-
-### Windows
-    put your commands here
 
 ## Build
 
